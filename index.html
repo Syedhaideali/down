@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Checker</title>
+    <link rel="stylesheet" href="stylish.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Checker</h1>
+        <div class="attendance">
+            <label for="employeeName">Employee Name:</label>
+            <input type="text" id="employeeName">
+            <button onclick="markAttendance()">Mark Attendance</button>
+            <p id="attendanceStatus"></p>
+        </div>
+        <div class="history">
+            <h2>Attendance History</h2>
+            <ul id="attendanceHistory"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
